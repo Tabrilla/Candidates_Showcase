@@ -1,7 +1,7 @@
-import PAGES from './constants/pages'
+import { Home } from "./pages"
 
 export default function App() {
   return <div>
-    <PAGES.Home/>
+    <Home/>
   </div>
 }
