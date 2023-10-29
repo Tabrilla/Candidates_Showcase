@@ -1,7 +1,7 @@
-import { IMGS } from "./constants";
+import PAGES from './constants/pages'
 
 export default function App() {
   return <div>
-    <img src={IMGS.ADUAN} alt="LASTNAME" className="h-12" />
+    <PAGES.Home/>
   </div>
 }
