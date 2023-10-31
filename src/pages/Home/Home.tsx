@@ -1,11 +1,12 @@
 import StickyNavbar from "../../components/navbar/StickyNavbar";
 
 const Home = () => {
-  return <section>
+  return <section className="bg-secondary">
+      <StickyNavbar/>
       <div>
-        <StickyNavbar/>
         
-
+        asdas
+  
       </div>
     </section>
 };

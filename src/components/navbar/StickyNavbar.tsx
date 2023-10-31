@@ -1,6 +1,6 @@
 import React from "react";
 import { IMGS } from "../../constants";
-import { Navbar, Collapse, Typography, Button, IconButton } from "@material-tailwind/react";
+import { Collapse, Typography, Button, IconButton } from "@material-tailwind/react";
  
 const StickyNavbar = () => {
 
@@ -42,10 +42,10 @@ const StickyNavbar = () => {
   );
  
   return ( <>
-      <Navbar className="bg-secondary sticky top-0 z-10 h-max max-w-full rounded-none px-4 py-2 lg:px-20 lg:py-4">
+      <section className="bg-secondary sticky top-0 z-10 h-max max-w-full rounded-none px-4 py-2 lg:px-20 lg:py-4">
         
         <div className="flex items-center justify-between text-blue-gray-900">
-          <Typography as="a" href="#" className="mr-4 -mt-5 cursor-pointer py-1.5 font-medium">
+          <Typography as="a" href="#" className="mr-4 cursor-pointer py-1.5 font-medium">
             <img src={IMGS.NAVILOGO} alt="STI LOGO" width={100}/>
           </Typography>
 
@@ -98,7 +98,7 @@ const StickyNavbar = () => {
             </Button>
           </div>
         </Collapse>
-      </Navbar>
+      </section>
   </>
   );
 }
