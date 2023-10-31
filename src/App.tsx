@@ -1,7 +1,10 @@
-import { Home } from "./pages"
+import StickyNavbar from "./components/navbar/StickyNavbar"
+import { Heading } from "./pages"
+
 
 export default function App() {
   return <div>
-    <Home/>
+    <StickyNavbar/>
+    <Heading/>
   </div>
 }
