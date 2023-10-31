@@ -1,10 +1,11 @@
-import Navbar from "../../components/navbar/Navbar";
+import StickyNavbar from "../../components/navbar/StickyNavbar";
 
 const Home = () => {
   return <section>
       <div>
-        <Navbar/>
-        {/* HELLO HOME */}
+        <StickyNavbar/>
+        
+
       </div>
     </section>
 };
