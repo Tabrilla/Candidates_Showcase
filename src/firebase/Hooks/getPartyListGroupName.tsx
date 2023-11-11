@@ -3,11 +3,11 @@ import { DB } from '../Config';
 import { collection, getDocs, QuerySnapshot, DocumentData } from 'firebase/firestore';
 
 interface PartyListName {
-  // Define the structure of your party list item
-  // For example, assuming there is a 'name' field in the document
-  name: string;
-  // Add other fields as needed
-}
+    id: string;
+    partyListPicture: string;
+    pl_Name: string;
+    // ... other fields
+  }
 
 const getPartyListNameGroup = (): PartyListName[] => {
   const [userPartyListName, setPartyListName] = useState<PartyListName[]>([]);
