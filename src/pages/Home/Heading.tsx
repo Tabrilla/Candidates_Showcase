@@ -1,7 +1,7 @@
 import { Button } from "@material-tailwind/react";
 
 const Heading = () => {
-  const AutoCenter = "max-w-[1250px] mt-[-96px] w-full h-screen flex flex-col justify-center";
+  const AutoCenter = "max-w-[1250px] w-full flex-col justify-center py-20";
   const FontBoldCenter = "text-center font-bold text-white";
   const ButtonColor ="bg-[#f9fbe7] text-black font-bold hover:bg-[#689f38] hover:text-white";
 

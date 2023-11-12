@@ -30,9 +30,6 @@ const PartyListCard: React.FC<PartyListCardProps> = ({ partyListPicture, pl_Name
         </Typography>
       </CardBody>
 
-      <CardFooter>
-        {/* Add any content for CardFooter if needed */}
-      </CardFooter>
     </Card>
   );
 };
