@@ -1,5 +1,5 @@
 import StickyNavbar from "./components/navbar/StickyNavbar"
-import { Heading, OurPartyList } from "./pages"
+import { Heading, Instructions, OurPartyList } from "./pages"
 
 
 export default function App() {
@@ -7,5 +7,6 @@ export default function App() {
     <StickyNavbar/>
     <Heading/>
     <OurPartyList/>
+    <Instructions/>
   </div>
 }

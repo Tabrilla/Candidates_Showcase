@@ -1,5 +1,4 @@
-import { Card, CardHeader, CardBody, CardFooter, Typography } from "@material-tailwind/react";
-
+import { Card, CardHeader, CardBody, Typography } from "@material-tailwind/react";
 interface PartyListCardProps {
   partyListPicture: string;
   pl_Name: string;
@@ -16,6 +15,7 @@ const PartyListCard: React.FC<PartyListCardProps> = ({ partyListPicture, pl_Name
       >
         <img
           src={partyListPicture}
+        
           alt="ui/ux review check"
         />
       </CardHeader>
