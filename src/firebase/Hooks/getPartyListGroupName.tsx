@@ -3,7 +3,7 @@ import { DB } from '../Config';
 import { collection, getDocs, QuerySnapshot, DocumentData } from 'firebase/firestore';
 
 interface PartyListName {
-    id: string;
+    id: number;
     partyListPicture: string;
     pl_Name: string;
     // ... other fields

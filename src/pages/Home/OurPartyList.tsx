@@ -6,11 +6,12 @@ const OurPartyList = () => {
   
   // Partylist fetching
   const userPartylist = getPartyListNameGroup();
+  
   const Text = "font-serif font-bold text-center";
   return (
     <section>
-      <h1 className={`${Text} text-3xl sm:text-3xl md:text-5xl lg:text-7xl mt-10`}>OUR PARTYLIST</h1>
-        <div className='flex justify-evenly py-10 px-10'>
+      <h1 className={`${Text} text-3xl sm:text-3xl md:text-5xl lg:text-7xl pt-5`}>OUR PARTYLIST</h1>
+        <div className='flex justify-evenly py-2 px-10'>
           {userPartylist.map((i) =>{
             return <div key={i.id}>
               <PartyListCard partyListPicture={i.partyListPicture} pl_Name={i.pl_Name} />
